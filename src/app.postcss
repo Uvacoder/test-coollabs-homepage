@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: Montserrat;
+}
+body {
+    @apply min-h-screen bg-coolblack text-white;
+}
+main {
+    min-height: calc(100vh - 120px);
+}
+.gradient {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
+    border-image-slice: 1;
+}
+
+.navbar-link{
+    @apply mx-2 cursor-pointer text-white px-2 rounded transition duration-100 tracking-tight font-bold;
+}
+.navbar-link:hover {
+    @apply bg-coolgray;
+}
