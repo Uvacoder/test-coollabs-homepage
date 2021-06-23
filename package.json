@@ -33,7 +33,6 @@
     "type": "module",
     "dependencies": {
         "cookie": "^0.4.1",
-        "js-cookie": "^2.2.1",
-        "typed.js": "^2.0.12"
+        "js-cookie": "^2.2.1"
     }
 }
