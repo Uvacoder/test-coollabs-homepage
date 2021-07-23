@@ -43,11 +43,9 @@
 						coolTalk
 					</p>
 					<h2 class="text-2xl md:text-3xl font-extrabold text-white pt-8">
-						The messaging platform you waited for! 💭 🤩
+						Talk to your users directly and easily. <br />They will love it! 💜
 					</h2>
-					<h2 class="text-base font-extrabold text-white pt-8">
-						Releasing soon... stay tuned... 🚀
-					</h2>
+
 				</div>
 			</div>
 		</div>

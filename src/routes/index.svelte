@@ -66,9 +66,9 @@
 				href="https://w3techs.com/technologies/details/ta-googleanalytics">Google Analytics</a
 			>)
 		</p>
-		<p class="mt-8 text-2xl text-center text-white leading-8">
+		<p class="mt-8 text-2xl text-center text-white leading-8 font-bold">
 			You & your user's
-			<span class="text-green-500 font-bold">should not be</span> the products!
+			<span class="text-green-500 font-bold">should NOT be</span> the products!
 		</p>
 	</div>
 </div>
@@ -291,37 +291,36 @@
 		</div>
 	</div>
 	<div
-		class="max-w-3xl text-center pb-10 bg-black border-4 border-dashed hover:border-indigo-600 border-transparent rounded py-5 my-5 mx-auto"
-	>
-		<p class="font-bold text-xl">
-			Interested about <a
-				href="https://coollabs.io/products"
-				target="_blank"
-				class="gradient font-extrabold">our other projects?</a
-			>
-		</p>
-		<p class="font-bold text-xl py-2">
-			<span class="font-extrabold gradient">Subscribe</span> to our newsletter! 👇
-		</p>
-		<p class="pb-6 text-xs">(No bullsh*t, promise)</p>
-		<div>
-			<div class="py-5">
-				<form>
-					<input
-						bind:this={emailInput}
-						class="w-64"
-						placeholder="Email address"
-						type="email"
-						bind:value={email}
-						required
-					/>
-					<button
-						type="submit"
-						class="w-32 button py-2 bg-indigo-600 hover:bg-indigo-500 cursor-pointer text-center"
-						on:click={subscribe}>Subscribe</button
-					>
-				</form>
-			</div>
+	class=" max-w-3xl text-center pb-10 py-5 my-5 mx-auto"
+>
+	<p class="font-bold text-xl">
+		Interested about coolTalk or <a
+		href="products"
+			class="underline text-sky-500 hover:text-white font-extrabold">our other projects?</a
+		>
+	</p>
+	<p class="font-bold text-xl py-2">
+		<span class="font-extrabold gradient">Subscribe</span> to our newsletter! 👇
+	</p>
+	<p class="pb-6 text-xs">(No bullsh*t, promise)</p>
+	<div>
+		<div class="py-5">
+			<form>
+				<input
+					bind:this={emailInput}
+					class="w-64"
+					placeholder="Email address"
+					type="email"
+					bind:value={email}
+					required
+				/>
+				<button
+					type="submit"
+					class="w-32 button py-2 bg-indigo-600 hover:bg-indigo-500 cursor-pointer text-center"
+					on:click={subscribe}>Subscribe</button
+				>
+			</form>
 		</div>
 	</div>
+</div>
 </div>

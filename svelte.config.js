@@ -2,7 +2,7 @@ import preprocess from 'svelte-preprocess'
 import path from 'path'
 import adapter from '@sveltejs/adapter-static'
 
-console.log(process.env.NODE_ENV)
+
 /** @type {import('@sveltejs/kit').Config} */
 export default {
   preprocess: [
