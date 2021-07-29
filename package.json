@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "license": "AGPL-3.0",
     "scripts": {
-        "dev": "TAILWIND_MODE=watch NODE_ENV=development svelte-kit dev --host 0.0.0.0",
+        "dev": "TAILWIND_MODE=watch NODE_ENV=development svelte-kit dev --host 0.0.0.0 --port 3001",
         "build": "NODE_ENV=production svelte-kit build",
         "preview": "svelte-kit preview",
         "start": "node build",
@@ -32,6 +32,7 @@
     },
     "type": "module",
     "dependencies": {
+        "@zerodevx/svelte-toast": "^0.4.1",
         "cookie": "^0.4.1",
         "js-cookie": "^2.2.1"
     }

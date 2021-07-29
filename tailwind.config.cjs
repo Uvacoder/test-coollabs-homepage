@@ -21,6 +21,7 @@ module.exports = {
       },
       colors: {
         ...colors,
+        coollabs: '#702FF3',
         coolblack: '#161616',
         coolgray: '#2C2C2C',
         'coolgray-100': '#181818',

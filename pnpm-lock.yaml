@@ -5,6 +5,7 @@ specifiers:
   '@sveltejs/kit': 1.0.0-next.125
   '@typescript-eslint/eslint-plugin': ^4.19.0
   '@typescript-eslint/parser': ^4.19.0
+  '@zerodevx/svelte-toast': ^0.4.1
   autoprefixer: ^10.2.5
   cookie: ^0.4.1
   cssnano: ^5.0.4
@@ -23,6 +24,7 @@ specifiers:
   typescript: ^4.0.0
 
 dependencies:
+  '@zerodevx/svelte-toast': 0.4.1
   cookie: 0.4.1
   js-cookie: 2.2.1
 
@@ -294,6 +296,10 @@ packages:
       '@typescript-eslint/types': 4.24.0
       eslint-visitor-keys: 2.1.0
     dev: true
+
+  /@zerodevx/svelte-toast/0.4.1:
+    resolution: {integrity: sha512-b29YcjIHis0/870F2tLhuiPN7OsFirqRShLlpac778HmNfGObl33Y4bM4y44erhvb90Nzqmk42AF34AuElxq/w==}
+    dev: false
 
   /acorn-jsx/5.3.1_acorn@7.4.1:
     resolution: {integrity: sha512-K0Ptm/47OKfQRpNQ2J/oIN/3QYiK6FwW+eJbILhsdxh2WTLdl+30o8aGdTbm5JbffpFFAg/g+zi1E+jvJha5ng==}

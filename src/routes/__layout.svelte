@@ -1,7 +1,12 @@
 <script>
 	import '../app.postcss';
+	import { SvelteToast } from '@zerodevx/svelte-toast';
+	const options = {
+		duration: 4000
+	};
 </script>
 
+<SvelteToast {options} />
 <header class="p-4 flex justify-center items-center">
 	<nav class="text-xl flex justify-center space-x-4 font-bold">
 		<a class="navbar-link" href=".">Home</a>

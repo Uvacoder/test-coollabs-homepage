@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+	--toastBackground: rgba(41, 37, 36, 0.8);
+	--toastProgressBackground: transparent;
+	--toastFont: 'Montserrat';
+}
 html {
     font-family: Montserrat;
 }
@@ -29,6 +33,18 @@ label {
     border-image-slice: 1;
 }
 
+._toastMsg {
+	@apply text-sm font-bold !important;
+}
+._toastItem {
+	@apply w-full border-l-2 border-green-600 !important;
+}
+._toastBtn {
+	@apply text-xs !important;
+}
+._toastBtn:hover {
+	@apply bg-gray-500 !important;
+}
 .navbar-link{
     @apply mx-2 cursor-pointer text-white px-2 rounded transition duration-100 tracking-tight font-bold;
 }
