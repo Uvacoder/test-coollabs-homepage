@@ -26,10 +26,10 @@
 <div class="bg-warmGray-900 text-white">
 	<div class="max-w-3xl text-center pb-10 py-5 my-5 mx-auto ">
 		<p class="font-bold text-xl">
-			Interested about coolify or <a
+			Interested about coolLabs and <a
 				href="https://coollabs.io/products"
 				target="_blank"
-				class="underline text-sky-500 hover:text-white font-extrabold">our other projects?</a
+				class="underline text-sky-500 hover:text-white font-extrabold">our projects?</a
 			>
 		</p>
 		<p class="font-bold  py-2">
