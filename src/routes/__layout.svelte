@@ -12,8 +12,7 @@
 		<a class="navbar-link" href=".">Home</a>
 		<a class="navbar-link" href="products"> Products </a>
     <a class="navbar-link" href="https://docs.coollabs.io">Docs</a>
-		<!-- <a class="navbar-link" href="donate">Donate </a> -->
-		<!-- <a class="navbar-link" href="https://coollabs.io">coolLabs</a> -->
+		<a class="navbar-link" href="https://docs.coollabs.io/contact">Contact</a>
 	</nav>
 </header>
 <slot />
