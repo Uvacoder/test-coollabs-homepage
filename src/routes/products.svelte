@@ -15,7 +15,7 @@
 			<div class="max-w-7xl mx-auto px-2 py-8 sm:px-6 lg:px-8">
 				<div class="text-center flex flex-col justify-center items-center">
 					<p
-						class="mt-1 pb-8 text-4xl font-extrabold text-white text-5xl sm:tracking-tight lg:text-6xl text-center"
+						class="mt-1 pb-8 font-extrabold text-white text-5xl sm:tracking-tight lg:text-6xl text-center"
 					>
 						Coolify
 					</p>
