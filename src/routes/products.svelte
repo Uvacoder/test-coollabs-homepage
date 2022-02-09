@@ -31,7 +31,7 @@
 </div>
 
 <div>
-	<a href="https://github.com/coollabsio/fonts" class="text-white cursor-pointer w-full flex justify-center py-10">
+	<a href="https://fonts.coollabs.io" class="text-white cursor-pointer w-full flex justify-center py-10">
 		<div
 			class="bg-black rounded-lg transition duration-200 ease-in-out border-4 border-transparent border-dashed hover:border-indigo-500 transform hover:-translate-y-1 hover:scale-110 w-4/5 shadow-xl"
 		>
