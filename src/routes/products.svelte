@@ -43,7 +43,7 @@
 						Fonts
 					</p>
 					<h2 class="text-2xl md:text-3xl font-extrabold text-white pt-8">
-						Privacy-focused Google Fonts CDN alternative
+						Privacy-focused <span class="text-sky-500">Google Fonts</span> alternative
 					</h2>
 
 				</div>
