@@ -19,10 +19,10 @@
 					>
 						Coolify
 					</p>
-					<h2 class="text-2xl md:text-3xl font-extrabold text-white">
-						An open-source, hassle-free, self-hostable<br class="md:block hidden" />
+					<h2 class="text-2xl md:text-3xl font-extrabold text-white pt-8">
+						An open-source & self-hostable
 						<span class="text-indigo-400">Heroku</span>
-						& <span class="text-green-400">Netlify</span> alternative
+						<span class="text-pink-400 text-2xl">/</span> <span class="text-green-400">Netlify</span> alternative
 					</h2>
 				</div>
 			</div>
