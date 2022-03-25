@@ -11,7 +11,13 @@
 	let emailSubscribeInput;
 
 	async function subscribe(e) {
-		if (emailSubscribe && emailSubscribeInput.checkValidity()) {
+		if (
+			emailSubscribe &&
+			/^[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/.test(
+				emailSubscribeInput.value
+			) &&
+			emailSubscribeInput.checkValidity()
+		) {
 			e.preventDefault();
 			try {
 				const { message } = await (
@@ -48,7 +54,7 @@
 		<p class="pb-6 text-xs">(No bullsh*t, promise)</p>
 		<div class="">
 			<div class="py-5">
-				<form>
+				<form on:submit|preventDefault>
 					<input
 						bind:this={emailSubscribeInput}
 						class="w-64"
