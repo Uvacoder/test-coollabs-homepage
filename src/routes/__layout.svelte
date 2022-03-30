@@ -15,11 +15,14 @@
     <a class="navbar-link" href="https://docs.coollabs.io">Docs</a>
 		<a class="navbar-link" href="https://docs.coollabs.io/contact">Contact</a>
 	</nav>
-</header>
+</header> 
 <slot />
 <footer class="bg-coolblack text-white">
+
     <div class="max-w-7xl mx-auto  px-4 sm:px-6 md:flex md:items-center md:justify-center lg:px-8">
+      
       <div class="my-8 md:mt-0 md:order-1">
+        <a class=" px-14 text-center hover:underline" href="/privacy-policy" target="_blank">Privacy Policy</a>
         <p class="text-center text-sm font-bold">
           Made from
           <svg xmlns="http://www.w3.org/2000/svg" class="w-4 inline-flex" viewBox="0 0 36 36">
