@@ -9,7 +9,10 @@ export default {
     })
   ],
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+      fallback: 'index.html',
+      precompress: true
+    }),
     prerender: {
       default: true,
     }
