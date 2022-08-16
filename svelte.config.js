@@ -16,27 +16,12 @@ export default {
       assets: 'build',
       fallback: null
     }),
-    target: '#svelte',
     prerender: {
-      crawl: true,
-      enabled: true,
-      force: true,
-      pages: ['*']
+      default: true,
     },
-    router: process.env.NODE_ENV === 'development',
-    hydrate: process.env.NODE_ENV === 'development',
-    vite: {
-      server: {
-        hmr: {
-          port: 23456
-        }
-      },
-      resolve: {
-        alias: {
-          $components: path.resolve('./src/components/'),
-          $store: path.resolve('./src/store/index.ts')
-        }
-      }
+    browser: {
+      router: process.env.NODE_ENV === 'development',
+      hydrate: process.env.NODE_ENV === 'development',
     }
   }
 }

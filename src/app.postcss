@@ -1,11 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
 	--toastBackground: rgba(41, 37, 36, 0.8);
 	--toastProgressBackground: transparent;
 	--toastFont: 'Montserrat';
 }
+
 html {
     font-family: Montserrat;
 }
@@ -15,17 +17,16 @@ body {
 main {
     min-height: calc(100vh - 120px);
 }
-
 input {
-	@apply text-sm rounded py-2 px-6 font-bold bg-warmGray-800 text-white transition duration-150 outline-none border border-transparent !important;
+	@apply h-12 w-96 rounded border border-transparent bg-transparent bg-coolgray-200 p-2 text-xs tracking-tight text-white placeholder-stone-600 outline-none transition duration-150 hover:bg-coolgray-500 focus:bg-coolgray-500 disabled:border disabled:border-dashed disabled:border-coolgray-300 disabled:bg-transparent md:text-sm;
 }
 input:hover,
 input:focus-visible,
 input:focus {
-	@apply bg-warmGray-700 !important;
+	@apply bg-slate-700 !important;
 }
 label {
-	@apply text-left text-base font-bold text-warmGray-400 !important;
+	@apply text-left text-base font-bold text-slate-400 !important;
 }
 .gradient {
     border-bottom: 2px solid transparent;
@@ -45,11 +46,9 @@ label {
 ._toastBtn:hover {
 	@apply bg-gray-500 !important;
 }
+
 .navbar-link{
     @apply mx-2 cursor-pointer text-white px-2 rounded transition duration-100 tracking-tight font-bold;
-}
-.navbar-link:hover {
-    @apply bg-coolgray;
 }
 
 button {
@@ -61,5 +60,5 @@ button {
 
 .button:focus-visible,
 .button:focus {
-	@apply bg-warmGray-700 !important;
+	@apply bg-slate-700 !important;
 }
